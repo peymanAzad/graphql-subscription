@@ -1,0 +1,6 @@
+subscription PostCreated($author: String) {
+	postCreated(author: $author) {
+		author
+		comment
+	}
+}
